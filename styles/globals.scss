@@ -1,0 +1,94 @@
+ @import  './reset.scss';
+
+// * {
+//   all: unset;
+//   display: revert;
+//   box-sizing: border-box;
+// }
+
+html,
+body {
+  text-align: center;
+  font-family: Consolas, Open-sans, sans-serif;
+   background-color: #202125;
+  color: #9cb898;
+  width: 100%;
+  min-height: 100vh;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+header{
+  margin-bottom: 1em;
+}
+
+li {
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+a {
+  color: #f14666;
+}
+
+h1 {
+  font-size: 2rem;
+  padding-bottom: 0.5em;
+}
+h2 {
+  font-size: 1.5rem;
+}
+h3 {
+  font-size: 1.2rem;
+  margin-bottom: 0.5em;
+}
+p {
+  font-size: 1rem;
+}
+
+a {
+  padding: .5rem;
+  display: inline-block;
+  position: relative;
+  text-decoration: none;
+  &:hover {
+    cursor: pointer;
+    color: #ffcdaa;
+    transform: scale(1.2);
+  }
+
+  &:active{
+    text-decoration: underline;
+  }
+}
+
+main{
+  margin: 4em 0;
+}
+
+.container {
+  margin: 0 4em;
+  padding: 2em 0;
+}
+
+.slick-prev,
+.slick-next {
+  background-color: #9cb898;
+  width: 40px;
+}
+
+.slick-dots{
+  button{
+    &:before{
+      color: #ffcdaa !important;
+    }
+  }
+}
+
+@media(min-width: 768px){
+    a{
+      padding: 1rem;
+    }
+}

@@ -1,0 +1,38 @@
+.me{
+  img {
+    width: 200px;
+  }
+  margin-bottom: 1em;
+}
+
+.interest, 
+.social{
+  display: inline;
+  margin: 0.5em;
+}
+
+.social{
+  &:hover{
+      transform: scale(1.2);
+  }
+  img{
+    max-width: 32px;
+    margin: 0.2em;
+  }
+}
+
+.socials{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.interests{
+  margin: auto;
+}
+
+@media(min-width: 768px){
+  .interests{
+    width: 25%;
+  }
+}
