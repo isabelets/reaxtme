@@ -9,11 +9,10 @@ export default class Skills extends React.Component {
     return skills.map((skill, key) => {
       return (
         <div key={key} className={styles["skill"]}>
-          <Image 
+          <img 
             src={skill.skill} 
             alt={skill.alt} 
-            width={48}
-            height={48}
+           
             />
           <span>{skill.level}</span>
         </div>
