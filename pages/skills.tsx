@@ -12,8 +12,8 @@ export default class Skills extends React.Component {
           <Image 
             src={skill.skill} 
             alt={skill.alt} 
-            width={32}
-            height={32}
+            width={48}
+            height={48}
             />
           <span>{skill.level}</span>
         </div>

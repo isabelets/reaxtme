@@ -1,16 +1,28 @@
 .skills-content{
-  display: grid;
-  grid-template-columns: repeat(4,1fr);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
   font-size: 1rem;
 }
 
 .skill{
   max-width: 48px;
   width: 100%;
-  margin: .4em;
-  justify-self: center;
+  margin: 0.8em;
 
   &:hover{
       transform: scale(1.5);
+  }
+}
+
+@media(min-width:768px){
+  .skills-content{
+    max-width: 50%;
+    margin: auto;
+  }
+
+  .skill{
+    margin: 1em;
   }
 }
