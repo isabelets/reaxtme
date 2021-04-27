@@ -8,8 +8,8 @@ const Description = () => {
       <Image
         src="/img/eu-circle-border.webp"
         alt="Picture of the author"
-        width={250}
-        height={250}
+        width={150}
+        height={150}
       />
       <h1>Isabele</h1>
       <ul>
