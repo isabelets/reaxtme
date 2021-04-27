@@ -1,4 +1,4 @@
- @import  './reset.scss';
+@import "../styles/reset.scss";
 
 // * {
 //   all: unset;
@@ -65,12 +65,11 @@ a {
 }
 
 main{
-  margin: 4em 0;
+  margin: 10% 0;
 }
 
 .container {
   margin: 0 4em;
-  padding: 2em 0;
 }
 
 .slick-prev,
@@ -85,6 +84,10 @@ main{
       color: #ffcdaa !important;
     }
   }
+}
+
+.selected{
+  color: #ffcdaa;
 }
 
 @media(min-width: 768px){

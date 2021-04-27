@@ -2,13 +2,14 @@ import React, { ReactNode } from 'react';
 import Link from 'next/link';
 import Head from 'next/head';
 import {Socials}  from '../pages/me';
+import LinkComponent from './Link';
 
 type Props = {
   children?: ReactNode
   title?: string
 }
 
-const Layout = ({ children, title = 'This is the default title' }: Props) => (
+const Layout = ({ children, title = 'Isabele' }: Props) => (
   <div className="container">
     <Head>
       <title>{title}</title>
@@ -17,15 +18,15 @@ const Layout = ({ children, title = 'This is the default title' }: Props) => (
     </Head>
     <header>
       <nav>
-        <Link href="/">
+        <LinkComponent href="/">
           <a>Home</a>
-        </Link>
-        <Link href="/skills">
+        </LinkComponent>
+        <LinkComponent href="/skills">
           <a>Skills</a>
-        </Link>
-        <Link href="/experiences">
+        </LinkComponent>
+        <LinkComponent href="/experiences">
           <a>Experiences</a>
-        </Link>
+        </LinkComponent>
       </nav>
     </header>
     <main>

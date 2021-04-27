@@ -3,7 +3,7 @@ import { Me } from './me'
 
 
 const IndexPage = () => (
-  <Layout title="Home">
+  <Layout title="Isabele">
    <Me />
   </Layout>
 )

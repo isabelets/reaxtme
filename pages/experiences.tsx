@@ -14,18 +14,14 @@ const Experiences = () => {
             return (
               <div key={key}>
                 <h3>{xp.position}</h3>
-                <p>
-                  <small>
+                <p className={styles["where"]}>
                     {xp.where} | {xp.dateFrom} - {xp.dateTo}
-                  </small>
                 </p>
-                <p>
-                  <ul>
-                    {xp.description.map((attr, key2) => {
-                      return <li key={key2}>{attr}</li>;
-                    })}
-                  </ul>
-                </p>
+                <ul>
+                  {xp.description.map((attr, key2) => {
+                    return <li key={key2}>{attr}</li>;
+                  })}
+                </ul>
               </div>
             );
           })}

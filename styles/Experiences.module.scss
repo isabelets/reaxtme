@@ -1,5 +1,18 @@
-@media(min-width:768px){
-  .experiences{
+.where {
+  font-size: small;
+  margin-bottom: 1em;
+}
+
+.experiences {
+  ul{
+    li{
+      margin-bottom: 1em;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .experiences {
     width: 50%;
     margin: auto;
   }
