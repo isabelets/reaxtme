@@ -10,7 +10,8 @@ export default class SimpleSlider extends Component {
       speed: 500,
       slidesToShow: 1,
       slidesToScroll: 1,
-      dotsClass: "slick-dots"
+      dotsClass: "slick-dots",
+      fade: true
     };
 
     const { children } = this.props;
