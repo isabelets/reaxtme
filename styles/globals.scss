@@ -53,6 +53,7 @@ a {
   display: inline-block;
   position: relative;
   text-decoration: none;
+
   &:hover {
     cursor: pointer;
     color: #ffcdaa;
@@ -65,11 +66,13 @@ a {
 }
 
 main{
-  margin: 10% 0;
+  padding: 3rem 0;
 }
 
 .container {
   margin: 0 4em;
+  display: flex;
+  flex-direction: column;
 }
 
 .slick-prev,
