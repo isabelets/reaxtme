@@ -55,7 +55,7 @@ export const Socials = () => {
   let socialsRender = socials.map((social, key) => {
     return (
       <li className={styles["social"]} key={key}>
-        <a href={social.link}>
+        <a target="_blank" href={social.link}>
           <img src={social.img} alt={social.alt} />
         </a>
       </li>
