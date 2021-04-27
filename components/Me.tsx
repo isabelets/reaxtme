@@ -43,7 +43,7 @@ const Interests = () => {
         </li>
         <li className={styles["interest"]}>
           <span role="img" aria-label="shows">
-            📺Tv shows / animes
+            📺Tv shows/animes
           </span>
         </li>
       </ul>
