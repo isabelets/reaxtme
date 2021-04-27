@@ -1,5 +1,5 @@
 import Layout from '../components/Layout';
-import { Me } from './me'
+import { Me } from '../components/Me';
 
 
 const IndexPage = () => (
