@@ -1,6 +1,6 @@
 import React, { ReactNode } from 'react';
 import Head from 'next/head';
-import {Socials}  from '../components/me';
+import {Socials}  from '../components/Me';
 import LinkComponent from './Link';
 
 type Props = {
