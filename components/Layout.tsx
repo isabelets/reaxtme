@@ -16,17 +16,6 @@ const Layout = ({ children, title = 'Isabele' }: Props) => (
       <meta name="viewport" content="initial-scale=1.0, width=device-width" />
     </Head>
     <header>
-      <nav>
-        <LinkComponent href="/">
-          <a>Home</a>
-        </LinkComponent>
-        <LinkComponent href="/skills">
-          <a>Skills</a>
-        </LinkComponent>
-        <LinkComponent href="/experiences">
-          <a>Experiences</a>
-        </LinkComponent>
-      </nav>
     </header>
     <main>
     {children}

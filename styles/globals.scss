@@ -17,7 +17,7 @@ body {
   font-family: Inconsolata, Consolas, monospaced;
   background-color: #202125;
   color: #9cb898;
-  font-size: 16px;
+  font-size: 22px;
   line-height: 1.5;
 }
 
@@ -65,11 +65,10 @@ a {
   }
 }
 
-header,
 main,
 footer {
   width: 100%;
-  padding: 1rem;
+  padding: 0.5rem;
 }
 
 main{
@@ -82,29 +81,4 @@ main{
   justify-content: space-evenly;
   width: 100%;
   min-height: 100vh;
-}
-
-.slick-prev,
-.slick-next {
-  background-color: #9cb898;
-  width: 40px;
-}
-
-.slick-dots {
-  button {
-    &:before {
-      color: #ffcdaa !important;
-    }
-  }
-}
-
-.selected {
-  color: #ffcdaa;
-  text-decoration: underline;
-}
-
-@media (min-width: 768px) {
-  a {
-    padding: 1rem;
-  }
 }
