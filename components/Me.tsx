@@ -56,7 +56,12 @@ export const Socials = () => {
     return (
       <li className={styles["social"]} key={key}>
         <a target="_blank" href={social.link}>
-          <img src={social.img} alt={social.alt} />
+        <Image
+        src={social.img}
+        alt={social.alt}
+        layout='fill'
+        objectFit='contain'
+      />
         </a>
       </li>
     );
